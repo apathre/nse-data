@@ -1,4 +1,4 @@
-Flask==2.2.6
+Flask==2.2.0
 pipenv==2023.9.8
 jugaad_data==0.26
 click==7.1.2

@@ -56,10 +56,7 @@ def history(scripId,fromDate,toDate):
   chkdt=json.load(f)
   for item in chkdt:
     if(item['SYMBOL']==scripId):
-        df = stock_df(symbol=scripId,
-                  from_date=from_date,
-                  to_date=to_date,
-                  series="EQ")
+        df = stock_df(symbol=scripId,from_date=from_date,to_date=to_date,series="EQ")
   
         # storing the data in JSON format
         #df.to_json('file.json', orient = 'split', compression = 'infer', index = 'true')

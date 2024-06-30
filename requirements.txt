@@ -1,3 +1,4 @@
 Flask==2.3.2
 pipenv==2023.9.8
-jugaad_data
+jugaad_data==0.26
+click==8.1.3

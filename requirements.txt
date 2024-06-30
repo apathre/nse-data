@@ -1,2 +1,3 @@
 Flask
 jugaad_data
+werkzeug
